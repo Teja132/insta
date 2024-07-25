@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fafafa;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phone-image img {
+    max-width: 400px;
+    height: auto;
+}
+
+.login-container {
+    margin-left: 50px;
+}
+
+.login-box {
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    padding: 20px;
+    text-align: center;
+    width: 350px;
+}
+
+.logo {
+    width: 175px;
+    margin-bottom: 20px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    background-color: #fafafa;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 3px;
+    background-color: #0095f6;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #007bb5;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.separator .line {
+    flex: 1;
+    height: 1px;
+    background-color: #dbdbdb;
+}
+
+.separator p {
+    margin: 0 10px;
+    color: #8e8e8e;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.facebook-login {
+    background-color: transparent;
+    border: none;
+    color: #385185;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.forgot-password {
+    display: block;
+    color: #00376b;
+    font-size: 12px;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+.signup-box {
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    padding: 20px;
+    text-align: center;
+    width: 350px;
+    margin-top: 10px;
+}
+
+.signup-box a {
+    color: #0095f6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.get-app {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.get-app p {
+    margin-bottom: 10px;
+}
+
+.app-buttons img {
+    width: 136px;
+    height: 40px;
+    margin: 5px;
+}
